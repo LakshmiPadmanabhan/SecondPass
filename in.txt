@@ -1,0 +1,10 @@
+     	COPY	START   1000
+1000	**      LDA     TWO
+1003    **      STA     BETA
+1006    **      STCH    C
+1009    BETA   RESW    2
+1012    TWO    WORD    2
+1018    CHARC   BYTE    C'Z'
+1019   	C      RESB    1
+1020    **      END     **   
+
